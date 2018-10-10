@@ -5,9 +5,8 @@ c)Obtenga el promedio de todos los numeros
 """
 
 N = int(input('Introduce el valor de los datos N:'))
-x1=0
-s=0
-st=0
+x1, s, st = 0
+
 for l in range(0,N):
     x = int(input('Introduce un valor:'))
     if x > 0:
@@ -16,8 +15,7 @@ for l in range(0,N):
     else:
         pass
     st= st + x
-p = s/x1
-pt = st/N
+p = s / x1, pt = st / N
 print('La cantidad de numeros leidos mayores a cero es:', x1)
 print('El promedio de los numeros positivos es:', p)
 print('El promedio de todos los numeros es:', pt)
