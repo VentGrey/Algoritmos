@@ -1,14 +1,12 @@
 """Escriba un diagrama de flujo tal que dado N numeros enteros como datos,
 calcule cual es el mayor y el menor de estos numeros"""
 
-x1 = 0
-x2 = 0
+x1, x2 = 0
 N = int(input('Cual es la longitud del vector que va a introducir?'))
 for l in range(0,N):
     x = int(input('ingresa un numero:'))
     if l == 0:
-        x1 = x
-        x2 = x
+        x1, x2 = x
     else:
         if x > x1:
             x1 = x
