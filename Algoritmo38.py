@@ -2,9 +2,7 @@
 de $200 o menos, cuantas fueron mayores a $200 y menores a $400, y cunatas
 de $400 o superiores a tal cantidad.
 """
-x1=0
-x2=0
-x3=0
+x1, x2, x3=0
 N = int(input('Cuantas ventas hizo el señor?:'))
 for l in range(0,N):
     x = int(input('Introduce el valor de la venta:'))
