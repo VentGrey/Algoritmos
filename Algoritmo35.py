@@ -1,4 +1,4 @@
-"""Haga un diagrama de flujo que calcule la suma de los numeros pares comprendidos
+"""Haga un programa que calcule la suma de los numeros pares comprendidos
 entre 10 y 50"""
 
 x = 0
@@ -8,4 +8,4 @@ for l in range(10,50):
         print (x)
     else:
         pass
-print (x)
+print(x)
